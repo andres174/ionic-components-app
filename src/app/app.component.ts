@@ -13,7 +13,7 @@ export class AppComponent {
     { title: 'Accordion', url: 'accordion', icon: 'caret-down' },
     { title: 'Alert', url: 'alert', icon: 'alert-circle' },
     { title: 'Badge', url: 'badge', icon: 'mail-unread' },
-    { title: 'Trash', url: '/folder/Trash', icon: 'trash' },
+    { title: 'Button', url: 'button', icon: 'radio-button-on' },
     { title: 'Spam', url: '/folder/Spam', icon: 'warning' },
   ];
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];

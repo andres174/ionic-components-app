@@ -1,0 +1,84 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>button</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-accordion-group>
+    <ion-accordion value="first">
+      <ion-item slot="header" color="light">
+        <ion-label>Basic buttons</ion-label>
+      </ion-item>
+      <div class="ion-padding container" slot="content">
+        <ion-button (click)="normalButton()">Basic Button</ion-button>
+        <p>
+          {{normal_button}}
+        </p>
+        <ion-button [disabled]="true">Basic Button Disabled</ion-button>
+      </div>
+    </ion-accordion>
+    <ion-accordion value="second">
+      <ion-item slot="header" color="light">
+        <ion-label>Expand Button</ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">
+        <ion-button expand="block" class="ion-margin-bottom">Block Button</ion-button>
+        <ion-button expand="full">Full Button</ion-button>
+      </div>
+    </ion-accordion>
+    <ion-accordion value="third">
+      <ion-item slot="header" color="light">
+        <ion-label>Shape Button</ion-label>
+      </ion-item>
+      <div class="ion-padding container" slot="content">
+        <ion-button class="ion-margin-bottom">Default Button</ion-button>
+        <ion-button shape="round">Round Button</ion-button>
+      </div>
+    </ion-accordion>
+    <ion-accordion value="fourth">
+      <ion-item slot="header" color="light">
+        <ion-label>Fill Button</ion-label>
+      </ion-item>
+      <div class="ion-padding container" slot="content">
+        <ion-button class="ion-margin-bottom">Default Button</ion-button>
+        <ion-button fill="clear" class="ion-margin-bottom">Clear Button</ion-button>
+        <ion-button fill="outline" class="ion-margin-bottom">Outline Button</ion-button>
+        <ion-button fill="solid">Solid Button</ion-button>
+      </div>
+    </ion-accordion>
+    <ion-accordion value="fifth">
+      <ion-item slot="header" color="light">
+        <ion-label>Size Button</ion-label>
+      </ion-item>
+      <div class="ion-padding container" slot="content">
+        <ion-button size="small">Small</ion-button>
+        <ion-button size="default">Default</ion-button>
+        <ion-button size="large">Large</ion-button>
+      </div>
+    </ion-accordion>
+    <ion-accordion value="sixth">
+      <ion-item slot="header" color="light">
+        <ion-label>Icon Button</ion-label>
+      </ion-item>
+      <div class="ion-padding container" slot="content">
+        <ion-button>
+          <ion-icon slot="start" name="star"></ion-icon>
+          Left Icon
+        </ion-button>
+        
+        <ion-button>
+          Right Icon
+          <ion-icon slot="end" name="star"></ion-icon>
+        </ion-button>
+        
+        <ion-button>
+          <ion-icon slot="icon-only" name="star"></ion-icon>
+        </ion-button>
+      </div>
+    </ion-accordion>
+  </ion-accordion-group>
+</ion-content>
