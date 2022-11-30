@@ -11,8 +11,8 @@ export class AppComponent {
   public appPages = [
     { title: 'Action Sheet', url: 'action-sheet', icon: 'albums' },
     { title: 'Accordion', url: 'accordion', icon: 'caret-down' },
-    { title: 'Favorites', url: '/folder/Favorites', icon: 'heart' },
-    { title: 'Archived', url: '/folder/Archived', icon: 'archive' },
+    { title: 'Alert', url: 'alert', icon: 'alert-circle' },
+    { title: 'Badge', url: 'badge', icon: 'mail-unread' },
     { title: 'Trash', url: '/folder/Trash', icon: 'trash' },
     { title: 'Spam', url: '/folder/Spam', icon: 'warning' },
   ];

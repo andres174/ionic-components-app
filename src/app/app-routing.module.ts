@@ -22,6 +22,10 @@ const routes: Routes = [
   {
     path: 'alert',
     loadChildren: () => import('./components/alert/alert.module').then( m => m.AlertPageModule)
+  },
+  {
+    path: 'badge',
+    loadChildren: () => import('./components/badge/badge.module').then( m => m.BadgePageModule)
   }
 ];
 
