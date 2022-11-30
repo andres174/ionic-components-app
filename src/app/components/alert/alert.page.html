@@ -1,9 +1,14 @@
 <ion-header>
   <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
     <ion-title>alert</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-
+  <div class="container">
+    <ion-button (click)="presentAlert()" class="">Click Me</ion-button>
+  </div>
 </ion-content>
