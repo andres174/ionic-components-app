@@ -1,0 +1,10 @@
+ion-item {
+    --padding-start: 0;
+}
+.b-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}

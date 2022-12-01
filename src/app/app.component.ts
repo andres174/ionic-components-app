@@ -14,8 +14,9 @@ export class AppComponent {
     { title: 'Alert', url: 'alert', icon: 'alert-circle' },
     { title: 'Badge', url: 'badge', icon: 'mail-unread' },
     { title: 'Button', url: 'button', icon: 'radio-button-on' },
-    { title: 'Spam', url: '/folder/Spam', icon: 'warning' },
+    { title: 'Card', url: 'card', icon: 'card' },
   ];
+  
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
   constructor(private router: Router) {}
 
