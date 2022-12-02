@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>checkbox</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-list>
+    <ion-item *ngFor="let check of data" (click)="onClick(check)">
+      <ion-checkbox slot="start" [(ngModel)]="check.selected" [color]="check.name"></ion-checkbox>
+      <ion-label>{{check.name}}</ion-label>
+    </ion-item>
+  </ion-list>
+  
+</ion-content>

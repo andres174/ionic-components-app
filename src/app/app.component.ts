@@ -15,6 +15,7 @@ export class AppComponent {
     { title: 'Badge', url: 'badge', icon: 'mail-unread' },
     { title: 'Button', url: 'button', icon: 'radio-button-on' },
     { title: 'Card', url: 'card', icon: 'card' },
+    { title: 'Checkbox', url: 'checkbox', icon: 'checkmark-circle' },
   ];
   
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
