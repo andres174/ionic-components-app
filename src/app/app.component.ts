@@ -17,6 +17,7 @@ export class AppComponent {
     { title: 'Card', url: 'card', icon: 'card' },
     { title: 'Checkbox', url: 'checkbox', icon: 'checkmark-circle' },
     { title: 'Date Time', url: 'datetime', icon: 'calendar' },
+    { title: 'Fab', url: 'fab', icon: 'add-circle' },
   ];
   
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
