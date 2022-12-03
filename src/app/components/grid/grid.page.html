@@ -1,0 +1,38 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>grid</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+  <ion-grid fixed>
+    <!-- <ion-row>
+      <ion-col *ngFor="let i of [1,1,1,1]; let j = index" size="6">{{j+1}}</ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col sizeLg="3" sizeMd="4" sizeSm="6" sizeXs="9" *ngFor="let i of [1,1,1,1]; let j = index">
+        {{i}}
+      </ion-col>
+    </ion-row> -->
+  
+    <ion-row>
+      <ion-col size="12" size-lg="3" size-md="4" size-sm="6" size-xs="12" *ngFor="let i of twelve">
+        <ion-card>
+          <img src="https://static.lolwallpapers.net/2017/08/59a280d1e222f-932x620.jpg" alt="">
+          <ion-card-header>
+            <ion-card-subtitle>Awesome Subtitle</ion-card-subtitle>
+            <ion-card-title>Awesome Title</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima repudiandae error ad labore sed! Asperiores.
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

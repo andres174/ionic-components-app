@@ -46,6 +46,10 @@ const routes: Routes = [
   {
     path: 'fab',
     loadChildren: () => import('./components/fab/fab.module').then( m => m.FabPageModule)
+  },
+  {
+    path: 'grid',
+    loadChildren: () => import('./components/grid/grid.module').then( m => m.GridPageModule)
   }
 ];
 
