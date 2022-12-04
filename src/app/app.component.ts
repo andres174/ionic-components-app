@@ -21,6 +21,7 @@ export class AppComponent {
     { title: 'Grid', url: 'grid', icon: 'grid' },
     { title: 'Infinite Scroll', url: 'infinite-scroll', icon: 'infinite' },
     { title: 'Input', url: 'input', icon: 'text' },
+    { title: 'List - Item', url: 'list-item', icon: 'list' },
   ];
   
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
