@@ -29,6 +29,7 @@ export class AppComponent {
     { title: 'Refresher', url: 'refresher', icon: 'repeat' },
     { title: 'Searchbar', url: 'searchbar', icon: 'search' },
     { title: 'Skeleton', url: 'skeleton', icon: 'cog' },
+    { title: 'Slides', url: 'slides', icon: 'copy' },
   ];
   
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];

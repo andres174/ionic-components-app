@@ -91,6 +91,10 @@ const routes: Routes = [
     path: 'skeleton',
     loadChildren: () => import('./components/skeleton/skeleton.module').then( m => m.SkeletonPageModule)
   },
+  {
+    path: 'slides',
+    loadChildren: () => import('./components/slides/slides.module').then( m => m.SlidesPageModule)
+  },
 ];
 
 @NgModule({
