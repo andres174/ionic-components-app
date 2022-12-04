@@ -63,6 +63,10 @@ const routes: Routes = [
     path: 'list-item',
     loadChildren: () => import('./components/list-item/list-item.module').then( m => m.ListItemPageModule)
   },
+  {
+    path: 'reorder',
+    loadChildren: () => import('./components/reorder/reorder.module').then( m => m.ReorderPageModule)
+  },
 ];
 
 @NgModule({
