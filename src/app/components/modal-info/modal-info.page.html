@@ -1,0 +1,25 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar>
+    <ion-button slot="start" expand="full" shape="round" fill="clear" color="danger" (click)="salir()">
+      Salir
+    </ion-button>
+    <ion-title>modal-info</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <div class="ion-margin container">
+    <h3>
+      {{nombre}} -- {{pais}}
+    </h3>
+  </div>
+
+  <!-- <ion-button expand="full" shape="round" color="danger" (click)="salir()">
+    Salir.
+  </ion-button> -->
+
+  <ion-button expand="full" shape="round" color="success" (click)="enviar()" class="ion-margin">
+    Enviar
+  </ion-button>
+</ion-content>

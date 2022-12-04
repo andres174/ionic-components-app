@@ -24,6 +24,8 @@ export class AppComponent {
     { title: 'List - Item', url: 'list-item', icon: 'list' },
     { title: 'List - Reorder', url: 'reorder', icon: 'reorder-four' },
     { title: 'Loading', url: 'loading', icon: 'refresh-circle' },
+    { title: 'Modal', url: 'modal', icon: 'phone-portrait' },
+    { title: 'Modal - Inline', url: 'modal-inline', icon: 'phone-portrait' },
   ];
   
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];

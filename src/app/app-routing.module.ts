@@ -71,6 +71,14 @@ const routes: Routes = [
     path: 'loading',
     loadChildren: () => import('./components/loading/loading.module').then( m => m.LoadingPageModule)
   },
+  {
+    path: 'modal',
+    loadChildren: () => import('./components/modal/modal.module').then( m => m.ModalPageModule)
+  },
+  {
+    path: 'modal-inline',
+    loadChildren: () => import('./components/modal-inline/modal-inline.module').then( m => m.ModalInlinePageModule)
+  },
 ];
 
 @NgModule({
