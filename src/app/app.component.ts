@@ -26,6 +26,7 @@ export class AppComponent {
     { title: 'Loading', url: 'loading', icon: 'refresh-circle' },
     { title: 'Modal', url: 'modal', icon: 'phone-portrait' },
     { title: 'Modal - Inline', url: 'modal-inline', icon: 'phone-portrait' },
+    { title: 'Refresher', url: 'refresher', icon: 'repeat' },
   ];
   
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];

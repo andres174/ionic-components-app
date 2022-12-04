@@ -79,6 +79,10 @@ const routes: Routes = [
     path: 'modal-inline',
     loadChildren: () => import('./components/modal-inline/modal-inline.module').then( m => m.ModalInlinePageModule)
   },
+  {
+    path: 'refresher',
+    loadChildren: () => import('./components/refresher/refresher.module').then( m => m.RefresherPageModule)
+  },
 ];
 
 @NgModule({
