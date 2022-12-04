@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>toast</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="container">
+    <ion-button (click)="presentToast()">Click Me</ion-button>
+    <p>{{ handlerMessage }}</p>
+    <p>{{ roleMessage }}</p>
+  </div>
+</ion-content>

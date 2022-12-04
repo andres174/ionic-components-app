@@ -30,6 +30,7 @@ export class AppComponent {
     { title: 'Searchbar', url: 'searchbar', icon: 'search' },
     { title: 'Skeleton', url: 'skeleton', icon: 'cog' },
     { title: 'Slides', url: 'slides', icon: 'copy' },
+    { title: 'Toast', url: 'toast', icon: 'git-commit' },
   ];
   
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
