@@ -87,6 +87,10 @@ const routes: Routes = [
     path: 'searchbar',
     loadChildren: () => import('./components/searchbar/searchbar.module').then( m => m.SearchbarPageModule)
   },
+  {
+    path: 'skeleton',
+    loadChildren: () => import('./components/skeleton/skeleton.module').then( m => m.SkeletonPageModule)
+  },
 ];
 
 @NgModule({
