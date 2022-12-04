@@ -54,6 +54,10 @@ const routes: Routes = [
   {
     path: 'infinite-scroll',
     loadChildren: () => import('./components/infinite-scroll/infinite-scroll.module').then( m => m.InfiniteScrollPageModule)
+  },
+  {
+    path: 'input',
+    loadChildren: () => import('./components/input/input.module').then( m => m.InputPageModule)
   }
 ];
 
