@@ -23,6 +23,7 @@ export class AppComponent {
     { title: 'Input', url: 'input', icon: 'text' },
     { title: 'List - Item', url: 'list-item', icon: 'list' },
     { title: 'List - Reorder', url: 'reorder', icon: 'reorder-four' },
+    { title: 'Loading', url: 'loading', icon: 'refresh-circle' },
   ];
   
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
