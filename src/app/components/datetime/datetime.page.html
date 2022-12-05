@@ -8,13 +8,13 @@
 </ion-header>
 
 <ion-content>
-  <ion-list>
-    <ion-list-header>
-      <ion-label>FALTA</ion-label>
-    </ion-list-header>
-    <!-- <ion-item>
-      <ion-label>Fecha de nacimiento</ion-label>
-      <ion-datetime placeholder="Nacimiento"></ion-datetime>
-    </ion-item> -->
-  </ion-list>
+  <div class="container">
+    <ion-datetime-button datetime="datetime"></ion-datetime-button>
+
+    <ion-modal [keepContentsMounted]="true">
+      <ng-template>
+        <ion-datetime id="datetime"></ion-datetime>
+      </ng-template>
+    </ion-modal>
+  </div>
 </ion-content>
