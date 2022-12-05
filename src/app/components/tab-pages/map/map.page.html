@@ -5,20 +5,33 @@
 </ion-header> -->
 
 <ion-content>
-  <div class="container">
-    <ion-button (click)="location()" *ngIf="isL === false">
-      <ion-icon slot="icon-only" name="globe"></ion-icon>
-    </ion-button>
-    <ion-card *ngIf="isL === true">
-      <ion-card-header>
-        <ion-card-title>Location</ion-card-title>
-      </ion-card-header>
-      <ion-card-content>
-        {{lat}}
-        <br>
-        {{lon}}
-      </ion-card-content>
-      <ion-button (click)="b()" fill="clear" *ngIf="isL === true">Back</ion-button>
-    </ion-card>
+  <!-- <ion-grid fixed>
+    <ion-row>
+      <ion-col size="12">
+        <div class="container">
+          <ion-button (click)="location()" *ngIf="isL === false">
+            <ion-icon slot="icon-only" name="globe"></ion-icon>
+          </ion-button>
+          <ion-card *ngIf="isL === true">
+            <ion-card-header>
+              <ion-card-title>Location</ion-card-title>
+            </ion-card-header>
+            <ion-card-content>
+              {{lat}}
+              <br>
+              {{lon}}
+            </ion-card-content>
+            <ion-button (click)="b()" fill="clear" *ngIf="isL === true">Back</ion-button>
+          </ion-card>
+        </div>
+      </ion-col>
+    </ion-row>
+    <div id="map">
+
+    </div>
+  </ion-grid> -->
+
+  <div id="map">
+
   </div>
 </ion-content>

@@ -127,6 +127,10 @@ const routes: Routes = [
     path: 'picker',
     loadChildren: () => import('./components/picker/picker.module').then( m => m.PickerPageModule)
   },
+  {
+    path: 'map-g',
+    loadChildren: () => import('./components/tab-pages/map-g/map-g.module').then( m => m.MapGPageModule)
+  },
 ];
 
 @NgModule({
