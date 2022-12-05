@@ -33,6 +33,7 @@ export class AppComponent {
     { title: 'Toast', url: 'toast', icon: 'git-commit' },
     { title: 'Tabs', url: 'tabs', icon: 'browsers' },
     { title: 'Picker', url: 'picker', icon: 'pin' },
+    { title: 'Breadcrumbs', url: 'breadcrumbs', icon: 'caret-down' },
   ];
   
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];

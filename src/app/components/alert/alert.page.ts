@@ -18,7 +18,7 @@ export class AlertPage implements OnInit {
     const alert = await this.alertController.create({
       header: '¡Ponte pilas ñaño!',
       subHeader: 'Mañana juega la Tri.',
-      message: 'Deja de ver culos',
+      message: 'Deja de ver .....',
       buttons: ['OK'],
     });
 
