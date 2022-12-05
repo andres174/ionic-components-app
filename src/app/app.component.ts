@@ -31,6 +31,7 @@ export class AppComponent {
     { title: 'Skeleton', url: 'skeleton', icon: 'cog' },
     { title: 'Slides', url: 'slides', icon: 'copy' },
     { title: 'Toast', url: 'toast', icon: 'git-commit' },
+    { title: 'Tabs', url: 'tabs', icon: 'browsers' },
   ];
   
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
