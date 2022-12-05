@@ -99,6 +99,18 @@ const routes: Routes = [
     path: 'toast',
     loadChildren: () => import('./components/toast/toast.module').then( m => m.ToastPageModule)
   },
+  {
+    path: 'breadcrumbs',
+    loadChildren: () => import('./components/breadcrumbs/breadcrumbs.module').then( m => m.BreadcrumbsPageModule)
+  },
+  {
+    path: 'nav',
+    loadChildren: () => import('./components/nav/nav.module').then( m => m.NavPageModule)
+  },
+  {
+    path: 'tabs',
+    loadChildren: () => import('./components/tabs/tabs.module').then( m => m.TabsPageModule)
+  },
 ];
 
 @NgModule({
