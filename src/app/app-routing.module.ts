@@ -123,6 +123,10 @@ const routes: Routes = [
     path: 'task',
     loadChildren: () => import('./components/tab-pages/task/task.module').then( m => m.TaskPageModule)
   },
+  {
+    path: 'picker',
+    loadChildren: () => import('./components/picker/picker.module').then( m => m.PickerPageModule)
+  },
 ];
 
 @NgModule({

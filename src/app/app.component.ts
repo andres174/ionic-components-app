@@ -32,6 +32,7 @@ export class AppComponent {
     { title: 'Slides', url: 'slides', icon: 'copy' },
     { title: 'Toast', url: 'toast', icon: 'git-commit' },
     { title: 'Tabs', url: 'tabs', icon: 'browsers' },
+    { title: 'Picker', url: 'picker', icon: 'pin' },
   ];
   
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
