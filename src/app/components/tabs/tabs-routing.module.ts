@@ -19,6 +19,10 @@ const routes: Routes = [
       {
         path: 'task',
         loadChildren: () => import('src/app/components/tab-pages/task/task.module').then(m => m.TaskPageModule),
+      },
+      {
+        path: 'map-g',
+        loadChildren: () => import('src/app/components/tab-pages/map-g/map-g.module').then(m => m.MapGPageModule)
       }
     ]
   }

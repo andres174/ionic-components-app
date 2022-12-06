@@ -1,3 +1,4 @@
+import { MapPage } from './../map/map.page';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
@@ -15,6 +16,9 @@ import { MapGPage } from './map-g.page';
     IonicModule,
     MapGPageRoutingModule
   ],
-  declarations: [MapGPage]
+  declarations: [MapGPage],
+  exports:[
+    MapGPage
+  ]
 })
 export class MapGPageModule {}

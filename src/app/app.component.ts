@@ -9,6 +9,7 @@ import { Router } from '@angular/router';
 })
 export class AppComponent {
   public appPages = [
+    { title: 'Tabs', url: 'tabs', icon: 'browsers' },
     { title: 'Action Sheet', url: 'action-sheet', icon: 'albums' },
     { title: 'Accordion', url: 'accordion', icon: 'caret-down' },
     { title: 'Alert', url: 'alert', icon: 'alert-circle' },
@@ -31,7 +32,6 @@ export class AppComponent {
     { title: 'Skeleton', url: 'skeleton', icon: 'cog' },
     { title: 'Slides', url: 'slides', icon: 'copy' },
     { title: 'Toast', url: 'toast', icon: 'git-commit' },
-    { title: 'Tabs', url: 'tabs', icon: 'browsers' },
     { title: 'Picker', url: 'picker', icon: 'pin' },
     { title: 'Breadcrumbs', url: 'breadcrumbs', icon: 'caret-down' },
   ];

@@ -1,9 +1,18 @@
-<ion-header>
+<!-- <ion-header>
   <ion-toolbar>
     <ion-title>map-g</ion-title>
   </ion-toolbar>
-</ion-header>
+</ion-header> -->
 
 <ion-content>
+  
+  <div #map class="map">
 
+  </div>
+
+  <ion-chip class="miubicacion" (click)="mylocation()">
+    <ion-label>Ubicación actual</ion-label>
+    <ion-icon name="locate"></ion-icon>
+  </ion-chip>
+  
 </ion-content>
