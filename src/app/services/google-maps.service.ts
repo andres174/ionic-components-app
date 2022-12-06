@@ -49,5 +49,5 @@ export class GoogleMapsService {
     });
   }
   
-  /* <script src="https://maps.google.com/maps/api/js?key=AIzaSyCVMQ2s2qMEyG7R3LigeWAeR-JnP6jkn6M"></script> */
+  /* <script src="https://maps.google.com/maps/api/js?key="></script> */
 }
