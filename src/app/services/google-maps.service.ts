@@ -1,4 +1,4 @@
-import { environment } from './../../environments/environment';
+
 import { Injectable } from '@angular/core';
 
 declare var google:any;
@@ -8,7 +8,7 @@ declare var google:any;
 })
 export class GoogleMapsService {
   
-  key = environment.apiKey;
+  key = "asdasdasdasdasfcals";
   isLoaded = false;
 
   constructor() { }

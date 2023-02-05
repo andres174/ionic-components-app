@@ -131,6 +131,10 @@ const routes: Routes = [
     path: 'map-g',
     loadChildren: () => import('./components/tab-pages/map-g/map-g.module').then( m => m.MapGPageModule)
   },
+  {
+    path: 'camera',
+    loadChildren: () => import('./components/camera/camera.module').then( m => m.CameraPageModule)
+  },
 ];
 
 @NgModule({

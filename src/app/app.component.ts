@@ -10,6 +10,7 @@ import { Router } from '@angular/router';
 export class AppComponent {
   public appPages = [
     { title: 'Tabs', url: 'tabs', icon: 'browsers' },
+    { title: 'Camera', url: 'camera', icon: 'camera' },
     { title: 'Action Sheet', url: 'action-sheet', icon: 'albums' },
     { title: 'Accordion', url: 'accordion', icon: 'caret-down' },
     { title: 'Alert', url: 'alert', icon: 'alert-circle' },

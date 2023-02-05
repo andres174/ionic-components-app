@@ -12,10 +12,12 @@ import { PipeModule } from './pipe/pipe.module';
 
 import { Geolocation } from '@awesome-cordova-plugins/geolocation/ngx';
 
+import { Camera } from '@awesome-cordova-plugins/camera/ngx';
+
 @NgModule({
   declarations: [AppComponent],
   imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule, HttpClientModule, PipeModule],
-  providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }, Geolocation],
+  providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }, Geolocation, Camera, ],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
